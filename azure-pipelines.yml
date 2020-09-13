@@ -12,7 +12,7 @@ variables:
 - group: EPlast
   # Container registry service connection established during pipeline creation
 - name: dockerRegistryServiceConnection
-  value: '5aab2e73-307d-46b2-8421-8ac50de15018'
+  value: '8ed17569-ca31-4c89-af46-56e9a10c9e35'
 - name: imageRepository
   value: 'eplastweb'
 - name: containerRegistry
@@ -72,7 +72,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'IrynaZavushchakEPlast.eplast'
+    environment: 'EPlast2.eplast2'
     strategy:
       runOnce:
         deploy:
