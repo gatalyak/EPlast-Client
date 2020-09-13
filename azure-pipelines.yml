@@ -16,7 +16,7 @@ variables:
 - name: imageRepository
   value: 'eplastweb'
 - name: containerRegistry
-  value: 'eplast.azurecr.io'
+  value: 'eplast2.azurecr.io'
 - name: dockerfilePath
   value: '**/Dockerfile'
 - name: tag
